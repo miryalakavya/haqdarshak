@@ -1,0 +1,44 @@
+/* <!--Navigation-Bar Starts--> */
+#top
+{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    background-color: #000000;
+}
+#website-name{
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+#myNavbar{
+    font-size: 18px;
+    /* font-family: 'Cabin', sans-serif; */
+}
+#myNavbar ul li :hover{
+    border-bottom: 1px solid yellow;
+}
+/* <!--Navigation-Bar Ends--> */
+
+/* Login Starts */
+form input, textarea{
+    border-radius: 2px;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    color: black;
+}
+/* Login Ends */
+
+/* Dashboard Starts */
+.mainDiv{
+    margin-top: 60px;
+}
+.divOne{
+    margin: 60px;
+}
+.divTwo{
+    margin: 60px;
+    padding: 20px 50px;
+}
+/* Dashboard Ends */
